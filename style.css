@@ -116,6 +116,7 @@
 
 .container .card .actions-container .shoes-options .color-options {
     display: flex;
+    align-items: center;
     margin: 10px 0;
 }
 
@@ -124,6 +125,23 @@
     height: 18px;
     background:#B5DB48;
     border-radius: 50%;
+}
+
+.container .card .actions-container .shoes-options .color-options .color.selected {
+    width: 21px;
+    height: 21px;
+    position: relative;
+}
+
+.container .card .actions-container .shoes-options .color-options .color.selected:after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.06);
+    top: -3px;
+    left: -2.5px;
 }
 
 .container .card .actions-container .shoes-options .color-options .color+.color {
