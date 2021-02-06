@@ -80,3 +80,19 @@
     font-size: 26px;
     line-height: 31,69px;
 }
+
+.container .card .card-content .price {
+    margin: 10px 0;
+    text-align: right;
+    font-family: "Open Sans";
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    color: #29455F;
+}
+
+.container .card .card-content .price span {
+    font-size: 14px;
+    color: #808080;
+    margin-right: 5px;
+}
