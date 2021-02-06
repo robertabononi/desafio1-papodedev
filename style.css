@@ -96,3 +96,44 @@
     color: #808080;
     margin-right: 5px;
 }
+
+.container .card .actions-container {
+    display: flex;
+}
+
+.container .card .actions-container .shoes-options {
+    flex-grow: 1;
+}
+
+.container .card .actions-container .shoes-options p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+
+    color: #808080;
+}
+
+.container .card .actions-container .shoes-options .color-options {
+    display: flex;
+    margin: 10px 0;
+}
+
+.container .card .actions-container .shoes-options .color-options .color {
+    width: 18px;
+    height: 18px;
+    background:#B5DB48;
+    border-radius: 50%;
+}
+
+.container .card .actions-container .shoes-options .color-options .color+.color {
+    margin-left: 25px;
+}
+
+.container .card .actions-container .shoes-options .color-options .color:nth-child(2) {
+    background: #FF3838;
+}
+
+.container .card .actions-container .shoes-options .color-options .color:nth-child(3) {
+    background:#3864FF;
+}
