@@ -188,3 +188,42 @@
     color: white;
     border: 0px;
 }
+
+.container .card .actions-container .cart {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card .actions-container .cart button {
+    width: 49px;
+    height: 80px;
+
+    background: #B5DB48;
+    border-radius: 16px;
+    border: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .card .actions-container .cart button .arrow {
+    color: white;
+    opacity: 0.2;
+}
+
+.container .card .actions-container .cart button .arrow:nth-child(2) {
+    color: white;
+    opacity: 0.4;
+}
+
+.container .card .actions-container .cart button .arrow:nth-child(3) {
+    color: white;
+    opacity: 0.6;
+}
+
+.container .card .actions-container .cart button .shop-cart {
+    margin-top: 8px;
+}
